@@ -1,3 +1,5 @@
+/* utility */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,61 @@ body{
     background-color: #F6F8F9;
 }
 
+.greyText{
+    color: #C8CED4;
+}
+
+.whiteText{
+    color: white;
+}
+
+.blueBg{
+    background-color: #47ADF1;
+}
+
+.greyBorder{
+    border: 1px solid  #C8CED4;
+    margin-left: 8px;
+}
+
+.greenText{
+    color: #61BEA6;
+}
+
+.greenBorder{
+    border: 1px solid #61BEA6;
+}
+
+.greenBg{
+    background-color: #61BEA6;
+}
+
+.redText{
+    color: red;
+}
+
+.redBorder{
+    border: 1px solid red;
+}
+
+.violetBg{
+    background-color: #9C72E4;
+}
+
+.orangeBg{
+   background-color: #F29E33; 
+}
+
+.pinkBg{
+    background-color: #D863A1;
+}
+
+.peasGreenBg{
+    background-color: #B0C926;
+}
+
+/* Header */
+
 header {
     background-color: white;
 }
@@ -20,15 +77,72 @@ header div {
 }
 
 header img {
-    height: 120px;
+    height: 100px;
     vertical-align: bottom;
 }
 
 h1{
     display: inline;
-    line-height: 120px;
+    line-height: 100px;
     margin-left: 10px;
-    font-size: 70px;
+    font-size: 60px;
     color: #343232;
-  
+}
+
+/*  Main */
+
+main {
+    background-color: white;
+    width: 80%;
+    height: 80vh;
+    margin: 20px auto;
+    padding-left: 60px;
+}
+
+.buttonContainer{
+    padding: 20px 0 20px 0;
+}
+
+button {
+    border-radius: 8px;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+/* Lists */
+
+ul {
+    list-style: none;
+}
+
+.listTitle{
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul li:nth-child(odd){
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.circle{
+    display: inline-block;
+    border-radius:50%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 8px;
+}
+
+.badge{
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: white;
+    
 }
